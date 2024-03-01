@@ -110,7 +110,7 @@ void printbst( TreeNodePtr treePtr, int count )
       ++count;
       printbst( treePtr->rightPtr , count); //Recursion to the right
  
-      for(i=0;i<count;i++) printf("  ");
+      for(i=0;i<count;i++) printf("    ");
       
       printf("%3d\n",treePtr->data) ;   //print the value
 
